@@ -55,7 +55,7 @@ from .company_valuation import (
     symbols_list,
 )
 from .cryptocurrencies import available_cryptocurrencies, cryptocurrencies_list
-from .etf import available_efts, available_etfs, etf_price_realtime
+from .etf import available_efts, available_etfs, etf_price_realtime, etf_info
 from .euronext import available_euronext, euronext_list
 from .forex import available_forex, forex, forex_list
 from .general import historical_chart, historical_price_full, quote
@@ -161,6 +161,7 @@ __all__ = [
     "institutional_holders",
     "mutual_fund_holders",
     "etf_holders",
+    "etf_info",
     "etf_sector_weightings",
     "etf_country_weightings",
     "sec_rss_feeds",
